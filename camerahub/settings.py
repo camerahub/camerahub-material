@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'material',
     'material.frontend',
-    'schema.apps.SchemaConfig'
+    'schema.apps.SchemaConfig',
+    'django_countries',
 ]
 
 MIDDLEWARE = [

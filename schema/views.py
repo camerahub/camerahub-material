@@ -3,5 +3,6 @@ from material.frontend.views import ModelViewSet
 from . import models
 
 
-# class MyModelViewSet(ModelViewSet):
-#    model = models.MyModel
+class ManufacturerViewSet(ModelViewSet):
+   model = models.Manufacturer
+   list_display = ('name', 'country')
